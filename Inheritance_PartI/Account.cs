@@ -66,6 +66,9 @@ namespace Inheritance_PartI
             return enoughMoney;
         }
 
+        //ToString is an existing method in system, at here we override it.
+        //当调用Console.WriteLine(对象)的时候，会对该对象自动调用ToString(对象)的操作
+        //此处override ToString()方法后，能够自动调用改写后的ToString()函数
         public override string ToString()
         {
             string t;
