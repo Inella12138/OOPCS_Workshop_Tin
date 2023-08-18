@@ -39,6 +39,9 @@ namespace Inheritance_PartII
         }
 
         //Methods
+
+        //overdraft account可以无条件取款，其他账户需要balance > 0
+        //定义一个virtual的withdraw()方法可以让程序共用一个方法名
         public virtual bool Withdraw(double amt)
         {
             balance -= amt;
@@ -69,9 +72,9 @@ namespace Inheritance_PartII
             return t;
         }
 
-        //在母类中定义一个CalculateInterest()函数，此处并无作用，只是为了让子类能够override
-        //若不在此定义一个virtual函数，每个子类(saving,current，overdraft)
-        //中的CalculateInterest()函数重名，可能引起潜在问题
+        //在母类中定义一个CalculateInterest()方法，此处并无作用，只是为了让子类能够override
+        //若不在此定义一个virtual方法，每个子类(saving,current，overdraft)
+        //中的CalculateInterest()方法重名，可能引起潜在问题
         public virtual double CalculateInterest()
         {
             return 0;
