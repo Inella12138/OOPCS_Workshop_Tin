@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Inheritance_PartII.Account" Collapsed="true">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAIAAIAACECAgAAAAMAAgAAAIAAAAAAAAAAAI=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPCS_Workshop_Polymorphism.BankBranch" Collapsed="true">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAQAAAAQAAAIQAAAAAAAAAUAACAAAAAAA=</HashCode>
+      <FileName>BankBranch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inheritance_PartII.CurrentAccount" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>CurrentAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inheritance_PartII.OverdraftAccount" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAFAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>OverdraftAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Inheritance_PartII.SavingAccount" Collapsed="true">
+    <Position X="6.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>SavingAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
